@@ -74,6 +74,7 @@ public interface DriverWaits {
             Thread.sleep(timeout);
         } catch (InterruptedException e) {
             e.printStackTrace();
+
         }
     }
 
