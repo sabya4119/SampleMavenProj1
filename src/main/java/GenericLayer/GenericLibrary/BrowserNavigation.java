@@ -74,6 +74,7 @@ public interface BrowserNavigation {
             fail("No Such window located");
         } catch (Exception e) {
             fail("Webdriver not initialized");
+
         }
     }
 

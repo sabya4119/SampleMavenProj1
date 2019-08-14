@@ -67,6 +67,7 @@ public interface DriverWaits {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+
     }
 
     public static void popMillisecondTimeout(int timeout) {
@@ -74,7 +75,6 @@ public interface DriverWaits {
             Thread.sleep(timeout);
         } catch (InterruptedException e) {
             e.printStackTrace();
-
         }
     }
 
